@@ -1,0 +1,21 @@
+name: Test
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Build
+    runs-on: windows-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Build
+      uses: xu-cheng/latex-action@v2
+      with:
+        root_file: xkcd.tex
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v2.2.3
+      with:
+        name: PDF
+        path: xkcd.pdf
