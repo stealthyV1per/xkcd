@@ -1,21 +1,4 @@
-\documentclass[a4paper, 12pt, hidelinks, titlepage]{article}
-
-\usepackage{hyperref} % URLs
-\usepackage{graphicx} % Images
-\usepackage{float} % Positioning
-\usepackage{caption} % Hide prefix from captions
-\usepackage{geometry} % Change paper borders
-\geometry{top=20mm, bottom=20mm, left=20mm, right=20mm}
-\usepackage{xcolor} % colorful text
-\usepackage{minted} % Inline code snippets
-\usemintedstyle{vs}
-
-\pagenumbering{gobble} % Disable page numbers
-
-\makeatletter
-\renewcommand\thesection{} % Suppress the section number
-\def\blfootnote{\xdef\@thefnmark{}\@footnotetext} % Suppress the footnote number
-\makeatother
+\documentclass{xkcd}
 
 \begin{document}
   \title{
@@ -31,221 +14,130 @@
   \tableofcontents
   \newpage
 
-  \section{Password Strength}
+  \xkcd
+  {Password Strength}
+  {password_strength.png}{
+    To anyone who understands information theory and security and is in an infuriating argument with someone who does not (possibly involving mixed case), I sincerely apologize.
+  }
+  {https://xkcd.com/936/}
 
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{./images/password_strength.png}
-    \caption*{
-      To anyone who understands information theory and security and is in an infuriating argument with someone who does not (possibly involving mixed case),
-      I sincerely apologize.
-    }
-  \end{figure}
+  \xkcd
+  {License Plate}
+  {license_plate.png}
+  {
+    The next day:
+    ``What? Six bank robberies!? But I just vandalized the library!''
+    ``Nice try. They saw your plate with all the 1's and I's.''
+    ``That's impossible! I've been with my car the whole ti-- \ldots wait. Ok, wow, that was clever of her.''
+  }
+  {https://xkcd.com/1105/}
 
-  \blfootnote{\url{https://xkcd.com/936/}}
+  \xkcd
+  {Free Speech}
+  {free_speech.png}
+  {
+    I can't remember where I heard this, but someone once said that defending a position by citing free speech is sort of the ultimate concession;
+    you're saying that the most compelling thing you can say for your position is that it's not literally illegal to express.
+  }
+  {https://xkcd.com/1357/}
 
-  \newpage
-
-  \section{License Plate}
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{./images/license_plate.png}
-    \caption*{
-      The next day: \\
-      ``What? Six bank robberies!? But I just vandalized the library!'' \\
-      ``Nice try. They saw your plate with all the 1's and I's.'' \\
-      ``That's impossible! I've been with my car the whole ti-- ... wait. Ok, wow, that was clever of her.''
-    }
-  \end{figure}
-
-  \blfootnote{\url{https://xkcd.com/1105/}}
+  \xkcd
+  {Communion}
+  {communion.png}
+  {
+    The local police, growing increasingly concerned about this church, ask parishioners to take a sip of wine and then spit it back out for DNA testing.
+    It's blood, and it matches a 1970s murder victim.
+  }
+  {https://m.xkcd.com/1152/}
   
-  \newpage
-
-  \section{Free Speech}
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{./images/free_speech.png}
-    \caption*{
-      I can't remember where I heard this,
-      but someone once said that defending a position by citing free speech is sort of the ultimate concession; 
-      you're saying that the most compelling thing you can say for your position is that it's not literally illegal to express.
-    }
-  \end{figure}
-
-  \blfootnote{\url{https://xkcd.com/1357/}}
+  \xkcd
+  {State Word Map}
+  {state_word_map.png}
+  {
+    The top search for every state is PORN, except Florida, where it's SEX PORN.
+  }
+  {https://xkcd.com/1845/}
   
-  \newpage
-
-  \section{Communion}
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{./images/communion.png}
-    \caption*{
-      The local police, growing increasingly concerned about this church,
-      ask parishioners to take a sip of wine and then spit it back out for DNA testing. It's blood, and it matches a 1970s murder victim.
-    }
-  \end{figure}
-
-  \blfootnote{\url{https://m.xkcd.com/1152/}}
+  \xkcd
+  {4th of July}
+  {4th_of_july.png}
+  {
+    Strangely, they still celebrate by eating hot dogs.
+    Since they don't have mouths, they just kinda toss them in the air and let them fall back down into their propeller blades.
+    It's pretty messy.
+  }
+  {https://xkcd.com/1858/}
   
-  \newpage
-
-  \section{State Word Map}
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{./images/state_word_map.png}
-    \caption*{
-      The top search for every state is PORN, except Florida, where it's SEX PORN.
-    }
-  \end{figure}
-
-  \blfootnote{\url{https://xkcd.com/1845/}}
+  \xkcd
+  {What to Bring}
+  {what_to_bring.png}
+  {
+    I always figured you should never bring a gun to a gun fight because then you'll be part of a gun fight.
+  }
+  {https://xkcd.com/1890/}
   
-  \newpage
-
-  \section{4th of July}
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{./images/4th_of_july.png}
-    \caption*{
-      Strangely, they still celebrate by eating hot dogs.
-      Since they don't have mouths, they just kinda toss them in the air and let them fall back down into their propeller blades. \\
-      It's pretty messy.
-    }
-  \end{figure}
-
-  \blfootnote{\url{https://xkcd.com/1858/}}
-
-  \newpage
-
-  \section{What to Bring}
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{./images/what_to_bring.png}
-    \caption*{
-      I always figured you should never bring a gun to a gun fight because then you'll be part of a gun fight.
-    }
-  \end{figure}
-
-  \blfootnote{\url{https://xkcd.com/1890/}}
+  \xkcd
+  {Making Progress}
+  {making_progress.png}
+  {
+    I started off with countless problems.
+    But now I know, thanks to \mintinline{SQL}{COUNT()}, that I have \texttt{\#REF! ERROR: Circular dependency detected} problems.
+  }
+  {https://xkcd.com/1906/}
   
-  \newpage
+  \xkcd
+  {GDPR}
+  {gdpr.png}
+  {
+    By clicking anywhere, scrolling, or closing this notification, you agree to be legally bound by the witch Sycorax within a cloven pine.
+  }
+  {https://xkcd.com/1998/}
+  
+  \xkcd
+  {Probability Comparisons}
+  {probability_comparisons.png}
+  {
+    Call me, MAYBE.
+  }
+  {https://xkcd.com/2379/}
 
-  \section{Making Progress}
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{./images/making_progress.png}
-    \caption*{
-      I started off with countless problems. \\
-      But now I know, thanks to \mintinline{SQL}{COUNT()}, that I have \texttt{\#REF! ERROR: Circular dependency detected} problems.
-    }
-  \end{figure}
-
-  \blfootnote{\url{https://xkcd.com/1906/}}
-
-  \newpage
-
-  \section{GDPR}
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{./images/gdpr.png}
-    \caption*{
-     By clicking anywhere, scrolling, or closing this notification, you agree to be legally bound by the witch Sycorax within a cloven pine.
-    }
-  \end{figure}
-
-  \blfootnote{\url{https://xkcd.com/1998/}}
-
-  \newpage
-
-  \section{Probability Comparisons}
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{./images/probability_comparisons.png}
-    \caption*{
-      Call me, MAYBE.
-    }
-  \end{figure}
-
-  \blfootnote{\url{https://xkcd.com/2379/}}
-
-  \newpage
-
-  \section{Unread}
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{./images/unread.png}
-    \caption*{
-      I'll never install a smart home smoke detector. It's not that I don't trust the software--it's that all software eventually becomes email, and I know how I am with email.
-    }
-  \end{figure}
-
-  \blfootnote{\url{https://xkcd.com/2389/}}
-
-  \newpage
-
-  \section{Egg Strategies}
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{./images/egg_strategies.png}
-    \caption*{
-      Neutral Evil is for people who like keeping the weight nicely centered in the carton, but also hate everyone else who wants that.
-    }
-  \end{figure}
-
-  \blfootnote{\url{https://xkcd.com/2408/}}
-
-  \newpage
-
-  \section{Hug Count}
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{./images/hug_count.png}
-    \caption*{
-      I've never been that big of a hug person, but it turns out I'm not quite this small of a hug person either.
-    }
-  \end{figure}
-
-  \blfootnote{\url{https://xkcd.com/2419/}}
-
-  \newpage
-
-  \section{Appliances}
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{./images/appliances.png}
-    \caption*{
-      If you had an oven bag and a dryer that runs unusually hot, I guess you could in theory make tumbled eggs.
-    }
-  \end{figure}
-
-  \blfootnote{\url{https://xkcd.com/2420/}}
-
-  \newpage
-
-  \section{Post-Pandemic Hat}
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{./images/post_pandemic_hat.png}
-    \caption*{
-      Plus a shirt that says ``it feels like you're making eye contact.''
-    }
-  \end{figure}
-
-  \blfootnote{\url{https://xkcd.com/2430/}}
+  \xkcd
+  {Unread}
+  {unread.png}
+  {
+    I'll never install a smart home smoke detector. It's not that I don't trust the software--it's that all software eventually becomes email, and I know how I am with email.
+  }
+  {https://xkcd.com/2389/}
+  
+  \xkcd
+  {Egg Strategies}
+  {egg_strategies.png}
+  {
+    Neutral Evil is for people who like keeping the weight nicely centered in the carton, but also hate everyone else who wants that.
+  }
+  {https://xkcd.com/2408/}
+  
+  \xkcd
+  {Hug Count}
+  {hug_count.png}
+  {
+    I've never been that big of a hug person, but it turns out I'm not quite this small of a hug person either.
+  }
+  {https://xkcd.com/2419/}
+  
+  \xkcd
+  {Appliances}
+  {appliances.png}
+  {
+    If you had an oven bag and a dryer that runs unusually hot, I guess you could in theory make tumbled eggs.
+  }
+  {https://xkcd.com/2420/}
+  
+  \xkcd
+  {Post-Pandemic Hat}
+  {post_pandemic_hat.png}
+  {
+    Plus a shirt that says ``it feels like you're making eye contact.''
+  }
+  {https://xkcd.com/2430/}
 \end{document}
