@@ -12,6 +12,8 @@
 \RequirePackage{xcolor} % colorful text
 \RequirePackage{minted} % Inline code snippets
 \usemintedstyle{vs}
+\RequirePackage[toc]{multitoc} % Table of contents in multiple rows
+\renewcommand*{\multicolumntoc}{2}
 
 \pagenumbering{gobble} % Disable page numbers
 
