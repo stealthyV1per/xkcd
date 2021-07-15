@@ -27,7 +27,7 @@
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{./images/#2}
+    \includegraphics[width=0.55\textwidth]{./images/#2}
     \caption*{#3}
   \end{figure}
 
